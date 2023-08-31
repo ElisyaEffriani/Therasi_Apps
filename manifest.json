@@ -1,0 +1,13 @@
+{
+  "name": "Therasi Apps",
+  "short_name": "Therasi",
+  "icons": [
+    {
+      "src": "cover.opsi.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone"
+}

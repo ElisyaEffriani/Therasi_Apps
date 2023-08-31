@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riwayat Lokasi</title>
+    <link rel="stylesheet" href="riwayat lokasi.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        class="logo"
+        src="WM THERASI APPS.png"
+        alt="Logo"
+        style="height: 70px; width: auto"
+      />
+    </nav>
+    <h1>Riwayat Lokasi</h1>
+    <h2>kalender</h2>
+    <div id="calendar">
+      <div class="header">
+        <button id="prev-month">&lt;</button>
+        <h5 id="current-month">August 2023</h5>
+        <button id="next-month">&gt;</button>
+      </div>
+      <div class="days">
+        <p>S</p>
+        <p>M</p>
+        <p>T</p>
+        <p>W</p>
+        <p>T</p>
+        <p>F</p>
+        <p>S</p>
+      </div>
+      <div id="dates"></div>
+    </div>
+    <div id="table">
+      <h1 id="table-title">3 August 2023</h1>
+      <div id="map" style="width: 100%; height: 500px"></div>
+    </div>
+    <a href="riwayat.html">
+      <img src="Icon home.png" alt="" style="height: 50px; width: auto" />
+    </a>
+    <script src="riwayat lokasi.js"></script>
+  </body>
+</html>
