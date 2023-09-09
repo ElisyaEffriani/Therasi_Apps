@@ -1,15 +1,18 @@
-body { 
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-color: #fff065;
-    }
-nav {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff065;
 }
-#map { height: 500px; width: 100%; }
+nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#map {
+  height: 1000px;
+  width: 70%;
+}
